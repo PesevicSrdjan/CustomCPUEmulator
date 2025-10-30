@@ -1,0 +1,6 @@
+MOV R0, 10
+MOV 0xfff, R0
+MOV R1, 0xfff
+MOV R2, R1
+ADD R0, R2
+HALT
